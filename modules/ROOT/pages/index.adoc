@@ -1,4 +1,6 @@
 
+image::https://thetimetube.herokuapp.com/asciidoc/img/logo128.png[]
+
 == MULTIMIGATOR
 
 Проект в рамках курса по проектированию и производству электронных устройств на Физтех.Фабрике МФТИ
@@ -10,30 +12,38 @@
 
 Можно сделать в https://www.tinkercad.com/[Tinkercad]
 
-image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/tree/main/modules/ROOT/images/plata0.png[Tinkercad,1928,888]
+image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata0.png[MaketPlata]
+
 
 === 2. Моделирование на макетной плате
 
 Вручную собираем схему на учебной плате, чтобы проверить, как это будет работать
 
-image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/tree/main/modules/ROOT/images/plata-1.png[MaketPlata]
 
+
+image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata-1.png[Tinkercad]
 === 3. Разработка печатной платы
 
 Проектирование платы производится в EasyEDA
 
-image:https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/tree/main/modules/ROOT/images/plata1.png[EasyEDA0]
+Сначала собираем основную схему
 
-image:https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/tree/main/modules/ROOT/images/plata2.png[EasyEDA1]
+image:https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata1.png[EasyEDA0]
+
+Затем преобразуем схему в следующий вид и располагаем их уже как на готовой плате
+
+image:https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata2.png[EasyEDA1]
 
 === 4. Изготовление платы
 
 Подготавливаем программу для фрезера в FlatCAM
 На выходе получаем файл с кодом, указывающем станку каким образом мы хотим обработать плату: дорожки + дырки
 
-image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/tree/main/modules/ROOT/images/plata3.png[FlatCAM]
+image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata3.png[FlatCAM]
 
-Результат фрезера
+Загружаем программу в фрезер, устанавливаем нужный инструмент и запускаем станок
 
-image::https://raw.githubusercontent.com/matmuher/fabric_circuit_board/main/modules/ROOT/images/plata4.png[Result]
+Результат раскроя
+
+image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata4.png[Result]
 
