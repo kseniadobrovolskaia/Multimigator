@@ -1,0 +1,39 @@
+
+== MULTIMIGATOR
+
+Проект в рамках курса по проектированию и производству электронных устройств на Физтех.Фабрике МФТИ
+Результатом данной работы стала плата с поочередно мигающими диодами.
+
+Проектирование и изготовление состоит из следующих этапов:
+
+=== 1. Виртуальное моделирование
+
+Можно сделать в https://www.tinkercad.com/[Tinkercad]
+
+image::https://raw.githubusercontent.com/matmuher/fabric_circuit_board/main/modules/ROOT/images/plata0.png[Tinkercad,1928,888]
+
+=== 2. Моделирование на макетной плате
+
+Вручную собираем схему на учебной плате, чтобы проверить, как это будет работать
+
+image::https://raw.githubusercontent.com/matmuher/fabric_circuit_board/main/modules/ROOT/images/plata-1.png[MaketPlata]
+
+=== 3. Разработка печатной платы
+
+Проектирование платы производится в EasyEDA
+
+image:https://raw.githubusercontent.com/matmuher/fabric_circuit_board/main/modules/ROOT/images/plata1.png[EasyEDA0]
+
+image:https://raw.githubusercontent.com/matmuher/fabric_circuit_board/main/modules/ROOT/images/plata2.png[EasyEDA1]
+
+=== 4. Изготовление платы
+
+Подготавливаем программу для фрезера в FlatCAM
+На выходе получаем файл с кодом, указывающем станку каким образом мы хотим обработать плату: дорожки + дырки
+
+image::https://raw.githubusercontent.com/matmuher/fabric_circuit_board/main/modules/ROOT/images/plata3.png[FlatCAM]
+
+Результат фрезера
+
+image::https://raw.githubusercontent.com/matmuher/fabric_circuit_board/main/modules/ROOT/images/plata4.png[Result]
+
