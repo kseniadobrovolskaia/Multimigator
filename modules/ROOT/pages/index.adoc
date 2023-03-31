@@ -46,4 +46,17 @@ image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/m
 Результат раскроя
 
 image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata4.png[Result]
+=== 5. Шелкография
+
+Делаем с помощью лазера рисунок
+
+image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata5.png[Result]
+
+=== 6. Пайка
+
+Заключительным этапом припаиваем все элементы и приклеиваем батарейку
+
+Как и ожидалось, диоды мигают поочередно!
+
+image::https://raw.githubusercontent.com/kseniadobrovolskaia/Multimigator/main/modules/ROOT/images/plata6.png[Result]
 
